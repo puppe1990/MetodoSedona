@@ -114,19 +114,6 @@ function criarTexto(texto){
 	let valor = document.createTextNode(texto);
 	return valor;
 }
-function criarHidden(valor){
-	const divConteudo = document.createElement('input');
-	divConteudo.setAttribute("type", "hidden");
-	return divConteudo.value = valor;
+function finish(){
+	alert("Parabéns! Provavelmente você está sentido-se muito melhor!")
 }
-
-
-
-
-
-
-// <div class="row">
-// 				<p>1.Necessito deste sentimento?</p>
-// 				<button value="sim" id="p1">Sim</button>
-// 				<button value="nao" id="p1">Não</button>
-// 			</div>
