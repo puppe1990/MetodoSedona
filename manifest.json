@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "Portuguese",
+    "name": "Sedona",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://metodosedona.netlify.com/",
+    "short_name": "Sedona",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/311ea681-d762-e960-39b6-82d482eb6d6a.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b3b57ee0-cd82-18cd-1d27-7da002ff5a7c.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/fd9fbde9-a434-dbc0-325a-a4eb46141543.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3070f5f4-1466-89a3-cc37-1fddb5812526.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3ccf0ea8-b3a0-d0b8-b5c8-10218c6cabde.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1af40fcf-0620-7a57-cb11-16896201754d.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/84afab8b-27ce-919b-42a1-43a3913441d5.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8c7c3e0e-ff9b-33c8-e4e0-5d5bc2bf737b.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/bd7363d2-9b5a-ed09-3db3-09a4c3301cd4.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b8b6cb27-a1dc-c216-f169-d65a5caa3902.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/94dba738-e2aa-7297-3909-9da8cb4e9e1b.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/392a88e0-70ae-ab2f-75ff-f597d7e04f9c.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d4acd720-0f13-8d39-cd0b-e6833d10d562.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3a685475-0b4c-87da-3d2a-dab49591a12b.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0bafc4e1-326e-559e-76c1-5945c0e8b74e.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/39e7b215-8d4e-f975-b41f-6a8598ba5a99.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2fc4a1bd-eab2-c335-3322-e84ee13abb26.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/bd6626db-2d17-7e64-d3ff-f3e9417ae530.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8ccf1c54-ff1f-1e97-4c9d-95691f76ddf5.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
