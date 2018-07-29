@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sedona</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form onsubmit="beginSedona(event)">
+		<div class="container">
+			<div id="conteudo">
+				<input type="hidden" name="comeco" id="valor" value="0">
+				<div class="form-group">
+				  <label for="usr">Insira um sentimento negativo:</label>
+				  <input type="text" class="form-control" id="feeling">
+				</div>
+				<div class="form-group">
+					<label for="usr">Escolha uma nota para esse sentimento:</label>
+					<button value="0" class="btn btn-success" id="r0">0</button>
+					<button value="1" class="btn btn-info" id="r1">1</button>
+					<button value="2" class="btn btn-info" id="r2">2</button>
+					<button value="3" class="btn btn-warning" id="r3">3</button>
+					<button value="4" class="btn btn-warning" id="r4">4</button>
+					<button value="5" class="btn btn-warning" id="r">5</button>
+					<button value="6" class="btn btn-warning" id="r6">6</button>
+					<button value="7" class="btn btn-danger" id="r7">7</button>
+					<button value="8" class="btn btn-danger" id="r8">8</button>
+					<button value="9" class="btn btn-danger" id="r9">9</button>
+					<button value="10" class="btn btn-danger" id="r10">10</button>
+				</div>
+			</div>
+		</div>
+	</form>	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
