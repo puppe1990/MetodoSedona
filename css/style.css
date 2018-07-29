@@ -1,5 +1,7 @@
-@media (max-width: 766px) {
-	.botao{
-		width: 48%;
-	}
-}	
+.botao{
+	width: 48%;
+}
+.starter-template{
+	padding: 3rem 1.5rem;
+    text-align: center;
+}

@@ -117,3 +117,10 @@ function criarTexto(texto){
 function finish(){
 	alert("Parabéns! Provavelmente você está sentido-se muito melhor!")
 }
+function sentimento(valor){
+	localStorage.setItem("sentimento", valor);	
+}
+(function() {
+	let feeling = document.querySelector("#feeling");
+	feeling.value = localStorage.getItem("sentimento");
+})();

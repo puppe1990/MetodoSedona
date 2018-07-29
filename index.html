@@ -9,28 +9,31 @@
 <body>
 	<form onsubmit="beginSedona(event)">
 		<div class="container">
-			<div id="conteudo">
-				<input type="hidden" name="comeco" id="valor" value="0">
-				<div class="form-group">
-				  <label for="usr">Insira um sentimento negativo:</label>
-				  <input type="text" class="form-control" id="feeling">
-				</div>
-					<div value="0" class="botao btn btn-success" onclick="finish()" id="r0">0 - Acabou!</div>
-				<div class="form-group">
-					<label for="usr">Escolha uma nota para esse sentimento:</label>
-					<button value="1" class="botao btn btn-info" id="r1">1</button>
-					<button value="2" class="botao btn btn-info" id="r2">2</button>
-					<button value="3" class="botao btn btn-warning" id="r3">3</button>
-					<button value="4" class="botao btn btn-warning" id="r4">4</button>
-					<button value="5" class="botao btn btn-warning" id="r">5</button>
-					<button value="6" class="botao btn btn-warning" id="r6">6</button>
-					<button value="7" class="botao btn btn-danger" id="r7">7</button>
-					<button value="8" class="botao btn btn-danger" id="r8">8</button>
-					<button value="9" class="botao btn btn-danger" id="r9">9</button>
-					<button value="10" class="botao btn btn-danger" id="r10">10</button>
+			<div class="starter-template">
+				<div id="conteudo">
+					<input type="hidden" name="comeco" id="valor" value="0">
+					<div class="form-group">
+					  <label for="usr">Insira um sentimento negativo:</label>
+					  <input type="text" class="form-control" id="feeling" onkeyup="sentimento(this.value)" onclick="this.value=''">
+					</div>
+						<div value="0" class="botao btn btn-success" onclick="finish()" id="r0">0 - Acabou!</div>
+					<div class="form-group">
+						<label for="usr">Escolha uma nota para esse sentimento:</label><br>
+						<button value="1" class="botao btn btn-info" id="r1">1</button>
+						<button value="2" class="botao btn btn-info" id="r2">2</button>
+						<button value="3" class="botao btn btn-warning" id="r3">3</button>
+						<button value="4" class="botao btn btn-warning" id="r4">4</button>
+						<button value="5" class="botao btn btn-warning" id="r">5</button>
+						<button value="6" class="botao btn btn-warning" id="r6">6</button>
+						<button value="7" class="botao btn btn-danger" id="r7">7</button>
+						<button value="8" class="botao btn btn-danger" id="r8">8</button>
+						<button value="9" class="botao btn btn-danger" id="r9">9</button>
+						<button value="10" class="botao btn btn-danger" id="r10">10</button>
+					</div>
 				</div>
 			</div>
-		</div>
+				
+			</div>
 	</form>	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
