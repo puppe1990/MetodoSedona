@@ -110,7 +110,7 @@ function criarElemento(elemento,texto=null,type=null,valor=null,id=null,classe=n
 	let paragrafo = document.createElement(elemento);
 	paragrafo.innerHTML = texto;
 	if (type) paragrafo.setAttribute("type", type);paragrafo.value = valor;paragrafo.id = id;
-	if(classe) paragrafo.classList.add('botao','btn',classe);
+	if(classe) paragrafo.classList.add('botaoQuestao','btn',classe);
 	return paragrafo;
 }
 function criarTexto(texto){
