@@ -5,12 +5,3 @@
 	padding: 3rem 1.5rem;
     text-align: center;
 }
-
-@media screen and (max-width: 714px) {
-  .botao{
-  	width: 100%; 
-  }
-  .botaoQuestao{
-  	width: 160%;
-  }
-}
